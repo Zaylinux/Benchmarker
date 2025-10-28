@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ext001",
+    "task_type": "extraction",
+    "input": "From the note, extract a JSON with fields name, relation, lesson.\nNote: \"Uncle Michael taught me to save 10% first and invest early.\"",
+    "expected_output": "{\"name\":\"Michael\",\"relation\":\"uncle\",\"lesson\":\"save 10% first and invest early\"}",
+    "schema_ref": "evaluators/sample_schema.json"
+  },
+  {
+    "id": "ext002",
+    "task_type": "extraction",
+    "input": "Extract a JSON with fields person, place, year from: \"Grandma Rosa moved from San Salvador to Newark in 1998.\"",
+    "expected_output": "{\"person\":\"Rosa\",\"place\":\"San Salvador to Newark\",\"year\":1998}",
+    "schema_ref": "evaluators/sample_schema.json"
+  }
+]

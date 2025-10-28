@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sum001",
+    "task_type": "summarization",
+    "input": "Summarize the following journal entry into exactly 3 bullet points:\n\n\"Today I met with my mentor to discuss migrating legacy workflows from Pega to Camunda. We agreed that some processes will run in parallel during migration. I want to capture learnings for my daughter about perseverance and process thinking.\"",
+    "expected_output": "- Parallel migration from Pega to Camunda agreed.\n- Key focus on documenting lessons learned.\n- Emphasis on perseverance and process mindset."
+  },
+  {
+    "id": "sum002",
+    "task_type": "summarization",
+    "input": "Write a 1\u20132 sentence summary of this:\n\n\"My legacy goal is to leave clear stories about family history, core values, and practical playbooks\u2014finances, education, and community impact.\"",
+    "expected_output": "The goal is to preserve family stories and core values while sharing practical playbooks on finances, education, and community impact."
+  },
+  {
+    "id": "sum003",
+    "task_type": "summarization",
+    "input": "Create a title (\u2264 12 words) that captures this note:\n\n\"Interviewed grandmother about her childhood migration story and resilience during hardship.\"",
+    "expected_output": "Grandmother\u2019s Migration Story and Resilience"
+  }
+]

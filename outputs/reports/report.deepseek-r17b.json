@@ -1,0 +1,17 @@
+{
+  "overall": 0.32570823580045666,
+  "by_category": {
+    "extraction": 0.0,
+    "rag": 0.701086956521739,
+    "reasoning": 0.10728160728160728,
+    "safety": 0.0,
+    "summarization": 0.6278690337923788
+  },
+  "weights": {
+    "summarization": 0.3,
+    "reasoning": 0.3,
+    "extraction": 0.2,
+    "rag": 0.15,
+    "safety": 0.05
+  }
+}

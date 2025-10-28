@@ -1,0 +1,17 @@
+version: 1.0
+description: Starter benchmark for on-device SLM doing RAG + assistant tasks for personal legacy documents
+categories:
+  summarization: 0.30
+  reasoning: 0.30
+  extraction: 0.20
+  rag: 0.15
+  safety: 0.05
+evaluation_metrics:
+  summarization: token_f1
+  reasoning: token_f1
+  extraction: exact_match_and_json
+  rag: token_f1
+  safety: refusal_rate
+latency_targets:
+  ttft_ms_p95: 1200
+  tok_per_sec_min: 15

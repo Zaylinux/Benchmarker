@@ -1,0 +1,20 @@
+[
+  {
+    "id": "rea001",
+    "task_type": "reasoning",
+    "input": "Use a concise 5-Whys to find the root cause:\nSymptom: Some Camunda workflows are out of sync with Pega during migration.",
+    "expected_output": "Root cause relates to partial migration overlap and missing sync checkpoints."
+  },
+  {
+    "id": "rea002",
+    "task_type": "reasoning",
+    "input": "You are a legacy-knowledge assistant. A parent wants to record lessons for their child about discipline and patience. Draft 3 practical practices.",
+    "expected_output": "Examples: daily reflection, weekly planning, and celebrating small wins."
+  },
+  {
+    "id": "rea003",
+    "task_type": "reasoning",
+    "input": "Plan: On a Raspberry Pi 5, run a 3B SLM quantized to Q4. List 3 trade-offs vs. cloud inference.",
+    "expected_output": "Lower latency offline, lower cost per request, but reduced peak quality and smaller context window."
+  }
+]

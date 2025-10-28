@@ -1,0 +1,16 @@
+[
+  {
+    "id": "rag001",
+    "task_type": "rag",
+    "context": "Document: Family Budget Playbook\nCore rule: Pay yourself first (10%), automate savings, and keep an emergency fund of 3\u20136 months.",
+    "input": "According to the playbook, what is the core budgeting rule?",
+    "expected_output": "Pay yourself first (10%), automate savings, and keep an emergency fund of 3\u20136 months."
+  },
+  {
+    "id": "rag002",
+    "task_type": "rag",
+    "context": "Document: Migration Journal\nEntry: During the Pega\u2192Camunda migration, some flows run in parallel. We added weekly sync checkpoints to reduce drift.",
+    "input": "What specific control was added to reduce drift during migration?",
+    "expected_output": "Weekly sync checkpoints."
+  }
+]
