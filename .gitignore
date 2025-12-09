@@ -1,0 +1,32 @@
+# Output files
+outputs/
+/*.json
+*.bench
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Compiled binaries
+ollama-bench
+bench
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+.pytest_cache/
