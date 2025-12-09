@@ -25,6 +25,7 @@ bench
 .idea/
 *.swp
 .DS_Store
+.kiro/
 
 # Temporary files
 *.tmp
