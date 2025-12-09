@@ -1,0 +1,14 @@
+# Development dependencies for SLM Taskpack Evaluator
+-r requirements.txt
+
+# Testing
+pytest-cov==4.1.0
+pytest-xdist==3.5.0
+
+# Code quality
+isort==5.13.2
+pylint==3.0.3
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
